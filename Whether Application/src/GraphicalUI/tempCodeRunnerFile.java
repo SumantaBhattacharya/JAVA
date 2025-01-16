@@ -1,0 +1,1 @@
+java -classpath ".;C:\Users\Sumanta Bhattacharya\Downloads\json-simple-1.1.1.jar" WheatherApp
