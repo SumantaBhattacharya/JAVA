@@ -36,7 +36,7 @@ public class YCH_STRING_Copy {
       System.out.println(a == b);// no 'is' operator
       System.out.println(a != b);
       System.out.println(a.equals(b));// does not check the pointing value of a amd b , it just check the value are equal or not thats what equal method does
-
+      
     }
     
 }
