@@ -29,53 +29,6 @@ IIESR is registered under the Government of West Bengal and NITI Aayog, India, p
 
 [![Video Thumbnail](https://img.youtube.com/vi/GjHNGM7KN3w/hqdefault.jpg)](https://youtu.be/GjHNGM7KN3w?si=Lzr2I6tEFSZv2Fx_)
 
-```java
-//  Half Piramid with Number
+# ***Solutions of Mock Test Results | C Programming | JECA Exam Preparation 2025***
 
-public class Half_P_with_Num {
-    public static void main(String[] args) {
-        for (int i = 1; i <= 5; i++) {
-            for (int j = 1; j <=i; j++) {
-                System.err.print(j);
-            }
-            System.err.println();
-        }
-    }
-}
-```
-```java
-// Hollow Reactrangle
-public class Hollow_Rectangle{
-    public static void main(String[] args) {
-        for (int i = 1; i <= 4; i++) { //nested loops  
-            for(int j=1; j<=5;j++){
-                if (i==1 || j==1 || i==4 || j==5){
-                    System.out.print("*");
-                }else{
-                    System.out.print(" ");
-                }
-                    
-            }
-            System.out.println();
-        }
-
-    }
-}
-```
-
-```java
-// SOLID RECTRANGLE
-public class Solid_Rectangle{
-    public static void main(String[] args) {
-        for (int i = 1; i <= 4; i++) { //nested loops 
-            // System.out.println("*****");
-            for(int j=1; j<=5;j++){
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-
-    }
-}
-
-```
+[![Solutions of Mock Test Results | C Programming | JECA Exam Preparation 2025](https://img.youtube.com/vi/P3giFSZzfr4/0.jpg)](https://youtu.be/P3giFSZzfr4?si=ppCgSlsKuFTgj1UB)
