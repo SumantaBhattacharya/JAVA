@@ -29,6 +29,4 @@ IIESR is registered under the Government of West Bengal and NITI Aayog, India, p
 
 [![Video Thumbnail](https://img.youtube.com/vi/GjHNGM7KN3w/hqdefault.jpg)](https://youtu.be/GjHNGM7KN3w?si=Lzr2I6tEFSZv2Fx_)
 
-# ***Solutions of Mock Test Results | C Programming | JECA Exam Preparation 2025***
 
-[![Solutions of Mock Test Results | C Programming | JECA Exam Preparation 2025](https://img.youtube.com/vi/P3giFSZzfr4/0.jpg)](https://youtu.be/P3giFSZzfr4?si=ppCgSlsKuFTgj1UB)
