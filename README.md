@@ -3,30 +3,10 @@
 
 # ***Core Java Certificate***
 
-I have successfully completed a **6-month course** in **Core Java** from the Indian Institute of Education & Social Reforms (IIESR).
-
-[![LinkedIn Image](https://media.licdn.com/dms/image/v2/D5622AQG0toYvg3xQwQ/feedshare-shrink_800/feedshare-shrink_800/0/1724596438680?e=1747872000&v=beta&t=Qh2oqhM1BmRp1mqxoFqU2ShzC6T6-5tQ43f-EZX1Srw)](https://media.licdn.com/dms/image/v2/D5622AQG0toYvg3xQwQ/feedshare-shrink_800/feedshare-shrink_800/0/1724596438680?e=1747872000&v=beta&t=Qh2oqhM1BmRp1mqxoFqU2ShzC6T6-5tQ43f-EZX1Srw)
-
+[![Core Java Certificate](https://media.licdn.com/dms/image/v2/D5622AQG0toYvg3xQwQ/feedshare-shrink_1280/feedshare-shrink_1280/0/1724596438683?e=1786579200&v=beta&t=pSjKDL8_rM9CeCgsP-kJgDM2PbjXdJ2d3YdVS9rAn8c)]()
 
 [View My Core Java Certificate](https://media.licdn.com/dms/image/v2/D5622AQG0toYvg3xQwQ/feedshare-shrink_800/feedshare-shrink_800/0/1724596438680?e=1747872000&v=beta&t=Qh2oqhM1BmRp1mqxoFqU2ShzC6T6-5tQ43f-EZX1Srw)
-
-
-## Certificate Details:
-- **Issued To**: Sumanta Bhattacharya  
-- **Duration**: 6 Months  
-- **Grade**: A  
-- **Issued On**: 20th January 2024  
-- **Location**: Dum Dum Junction Centre  
-
----
-
-### About the Institution:
-IIESR is registered under the Government of West Bengal and NITI Aayog, India, promoting educational and social reforms.
-
-
 
 # ***YouTube Video***
 
 [![Video Thumbnail](https://img.youtube.com/vi/GjHNGM7KN3w/hqdefault.jpg)](https://youtu.be/GjHNGM7KN3w?si=Lzr2I6tEFSZv2Fx_)
-
-
