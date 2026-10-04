@@ -1,0 +1,258 @@
+1. The number of layers is in ISO OSI referrence model in
+i. 4 ii. 7 iii. 6 iv. 10
+
+2. How many Layers are present in the Internet Protocol stack (TCP/IP model)?
+i. 4 ii. 7 iii. 6 iv. 10
+
+1. Application layer 
+2. Transport layer
+3. Internet layer
+4. Network layer.
+
+3. The Location of a resource on the Internet is given by its 
+i. protocol iii. URL iii. E-MAIL ADDRESS iv.HTTP
+
+4. The Term HTTP stands for?
+i. Hypertext transfer tracing protocol
+ii. Hyper terminal tracing protocol
+iii. Hypertext transfer program
+iv. Hypertext transfer protocol
+
+5. The Term FTP stands for?
+i. File transfer program
+ii. File Transmission protocol
+iii. File transfer protocol
+iv. File transfer protection
+
+4. Three Or more devices share a link in connection 
+i. uniport ii. Multipoint iii. point to point iv.simplex.
+
+5. When a collection of various computers seems a single coherent system to its client then it is called 
+i. computer network. 
+ii. Distributed system. 
+iii. Networking system. 
+iv. Mail system.
+
+6. Connection channel is shared by all machines on the network in
+i. Broadcast network
+ii. Unicast network 
+iii. multicast network, 
+iv. anycast network.
+
+7. Application layer is implemented in.
+i. End system ii. NIC iii. Ethernet iv. packet transport.
+
+8. Which transmission media provides the highest speed?
+i. Coaxial cable ii. twisted pair cable
+iii. optical fiber, iv. electrical cable.
+
+9. The data link layer takes the packets from ________ and encapsulate them into frames For transmission.
+i. Network layer, ii. physical layer, iv. Transport layer, iv. Application layer.
+
+10. Which of the following tasks is not done by data link layer?
+i. Framing ii. error control iii. flow control iv. channel coding.
+
+11. Header of a frame generally contains.
+i. Synchronization. ii. Bytes. iii. Frame identifier iv. all of the mentioned.
+
+12. Automatic repeat request error management mechanism is provided by 
+i. Logical link control sublayer. 
+ii. Media access control sublayer, 
+iii. network interface control sublayer, 
+iv. application access control sublayer.
+
+13. When two or more beds in a data unit has been changed during the transmission. The error is called 
+i. random error 
+ii. burst error, 
+iii. inverted error, 
+iv. double error.
+
+14. The network layer is connected with __________ of data.
+i. Bits, 
+ii. frames 
+iii. packets, 
+iv. bytes.
+
+15. A datalink layer is concerned with ________ of data
+i. Bits, 
+ii. frames 
+iii. packets, 
+iv. bytes.
+
+16. A physical layer is concerned with ________ of data
+i. Bits, 
+ii. frames 
+iii. packets, 
+iv. bytes.
+
+17. Which of the following is not a function of Network layer.
+i. Routing, ii. internetworking, iii. congestion control iv. Error control
+
+18. Which of the following routing algorithms can be used for network layer design?
+i. shortest path alogorithms ii. distance vector routing iii. link state routing iv. all of the mentioned
+
+19. A subset of a network that include all of the routers but contains no loops in called
+i. spanning tree ii. spider structure iii. spider tree iv. special tree
+
+20. The network layer protocol for intenet is
+i. Ethernet ii. Internet protocol iii. HTTP iv. FTP
+
+21. Transport Layer aggregate data from different applications into a single stream before passing it to. 
+i. Network layer, ii. data link layer, iii. application layer. iv. Physical layer.
+
+22. Which of the following? Are transport layer protocols is/are used for networking.
+i. TCP and FTP ii. UDP and HTTP iii. TCP and UDP iv. HTTP and FTP
+
+23. User Diagram protocol is connectionless because 
+i. all UDP packets are treated independently by transport layer. 
+ii. It sends data as a stream of related packets. 
+iii. It is received in the same order as the send order 
+iv. it sends data very quickly.
+
+24. Transport Layer protocols deals with.
+i. Application to application communication.
+ii. Process to process communication.
+iii. Node to node communication
+iv. Man to man communication.
+v. point to point communication
+v. host to host communication
+
+ans. ii. Process to process communication.
+
+Transport Layer protocols deals with Process to process communication or end to end communication
+
+24. Datalink Layer protocols deals with.
+i. Application to application communication.
+ii. Process to process communication.
+iii. Node to node communication
+iv. Man to man communication.
+v. point to point communication
+v. host to host communication
+
+Both v. point to point communication and iii. Node to node communication
+
+Datalink Layer protocols deals with point to point communication or Node to node communication
+
+24. Network Layer protocols deals with.
+i. Application to application communication.
+ii. Process to process communication.
+iii. Node to node communication
+iv. Man to man communication.
+v. point to point communication
+v. host to host communication
+
+v. host to host communication
+
+Network Layer protocols deals with host to host communication
+
+25. Which is not a application layer protocol.
+i. HTTP, ii. SMTP. iii. FTP iv. TCP.
+
+26. The length of an IPV6 address is.
+i. 32 bits, ii. 64 bits, iii. 128 bits. iv. 256 bits.
+
+27. The length of an IPV4 address is.
+i. 32 bits, ii. 64 bits, iii. 128 bits. iv. 256 bits.
+
+28. In specific. If the system use separate protocols, which one of the following devices is used to link 2 devices? 
+i. Repeater, ii. gateway, iii. bridge, iv. hub.
+
+29. Wi-fi and Bluetooth is defined by IEEE as.
+i. 802.3 and 802.5. 
+ii. 802.1 and 802.2
+iii. 802.5 and 802.11
+1v. 802.11 and 802.15
+
+30. Which mail protocol is used to access emails from multiple devices?
+i. Simple Mail Transfer Protocol (SMTP) 
+ii. Internet Message Access Protocol 
+iii. File Transfer Protocol, 
+iv. Post Office Protocol.
+
+31. In computer network RIP means. 
+i. Route information process 
+ii. routing information process, 
+iii. route inform protocol, 
+iv. routing information protocol.
+
+32. The field has value of 10. How many routers (max) can process this datagram
+i. 4. ii. 5 iii. 10 iv. 1
+
+33. OSPF (Open shortest path control) is an example of
+i. Distance vector routing Protocol, ii. link state routing protocol, 
+iii. hybrid routing protocol, iv. path vector routing protocol.
+
+34. Which is Wrong statement regarding NIC.
+i. NIC stands for Network Interface Card. 
+ii. NIC is a hardware component used to connect different computers. 
+iii. MAC address is not encoded in NIC. 
+iv. There are two types of NIC. That is wired NIC and wireless NIC. 
+
+35. Multiple processes or destination at transfer layer are identified by?
+i. MAC address, ii. port number, iii. host number, iv. host address.
+
+36. What is the possible size of socket address in computer network? 
+i. 32 bits, ii. 48 bits. iii. 148 bits, v. 64 bits.
+
+37. Which is not a private IP address?
+i. 10.10.10.1 
+ii. 172.16.0.255 
+iii. 192.10.10.10
+iv. 192.168.10.1
+
+38. Suppose we want to broadcast some message from a device. 
+(IP address is 123.10.10.10) to another network (IP address of the network is 233.10.10.0.) 
+What Would be destination IP address to be used to broadcast the message.
+i. 255.255.255.255 
+ii. 123.255.255.255
+iii. 223.255.255.255. 
+iv. 223.10.10.255.
+
+39. Suppose we want to broadcast some message from a device (IP address is 123.10.10.10) to the same Network. 
+What would be the destination IP address to be used to broadcast the message?
+i. 255.255.255.255
+ii. 123.255.255.255
+iii. 0.0.0.0
+iv. 123.0.0.0
+
+40. How many bits are allocated for Network ID and Host ID in 193.192.157.234 address. (Assuming classful addressing scheme is followed.)
+i. 8, 24 
+ii. 16, 16 
+iii. 24, 8
+iv. None of the above
+
+41. The device that has IP address of 123.10.12.13 belong to network.
+i. 123.255.255.255
+ii. 123.10.0.0 
+iii. 123.10.12.0
+iv. 123.0.0.0
+
+42. The dotted decimal notation (DDN) format for the given hexadecimal notation (HDN) 172A84CB.
+i. 24.40.132.200. 
+ii. 23.42.132.200 
+iii. 23.42.130.200
+iv. 23.42.132.198.
+
+43. Find the class A address from the following
+i. 00001010.00000000.00000000.00000000
+ii. 10101100.00010000.00000000.00000001
+iii. 11000000.00000000.00000000.00000001
+iv. 11100000.00000000.00000000.00000001
+
+44. Number of networks and number of hosts in class C are 2^m and 2^n-2 .
+
+Which of the following following is the multiple access protocol for access control?
+i. CSMA/CD ii. CSMA/CA iii. Both CSMA/CD & CSMA/CA D. HDLC
+
+Which of the following following is not a function of network layer
+i. Routing ii. Inter-networking iii. congession control iii. Error control
+
+Transmission control protocol
+i. is a Connection oriented protocol 
+ii. uses a 3 way handshake to establish a connection 
+iii. Receives data from an application as a single stream.
+iv. All of the mentioned.
+
+-------------C----------------
+What is the time complexity of a program to reverse a linked list
+i. O(n) ii. O(1) iii. O(n^2) iv. None of the above.
