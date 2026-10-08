@@ -27,7 +27,7 @@ public class SumOfFollowingSeries{
         // If n is odd: −2n
         // If n is even: +2n
 
-        // If user enters N = 4, add the first 4 terms: −2+4−6+8=4
+        // If user enters N = 4, add the first 4 terms: −2+4−6+8=4 (-2+4 = +2 & −6+8 = +2)
 
         int N = 4;
         int sum = 0;
