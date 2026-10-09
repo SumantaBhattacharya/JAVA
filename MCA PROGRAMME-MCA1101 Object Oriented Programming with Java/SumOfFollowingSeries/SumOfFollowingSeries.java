@@ -30,6 +30,7 @@ public class SumOfFollowingSeries{
         // If user enters N = 4, add the first 4 terms: −2+4−6+8=4 (-2+4 = +2 & −6+8 = +2)
 
         int N = 4;
+        // Whole numbers only → int 
         int sum = 0;
 
         for (int i = 1; i <= N; i++) {
