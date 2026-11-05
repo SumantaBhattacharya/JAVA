@@ -45,9 +45,16 @@
             - √-D / 2.a 
           - complex number=real+imaginary⋅i
           
-  - Leap year: if the year is divisible by 4 and not divisible by 100 its a leap year
-            If a number is divisible by 100, it is automatically divisible by 4 and if its divisible by 400, then it is a leap year
-            If a year is not divisible by 100, it cannot be divisible by 400.
+  - `Leap year`: 
+    - *if the year is divisible by 4 and not divisible by 100 its a leap year*
+
+    - *If a number is divisible by 100, it is automatically divisible by 4 and if its divisible by 400, then it is a leap year*
+
+    - *If a year is not divisible by 100, it cannot be divisible by 400.*
+            
+  - In `Java`, you cannot return two values separated by a comma. A `Java` method can only return one single thing.
+  - > *for a `Pearson number`: separate the digits, find the factorial of each digit, sum them, remove the last digit, and then compare.* 
+  - > *For an `Armstrong number`: separate the digits, raise each digit to the power of the total number of digits, sum them, remove the last digit, and then compare.*
 
 # ***[`Java program to calculate area of Triangle | Learn Coding`](https://youtu.be/z9SVjqQ6PFY?si=YXOtOpJ7RhosMZFi)***
 
