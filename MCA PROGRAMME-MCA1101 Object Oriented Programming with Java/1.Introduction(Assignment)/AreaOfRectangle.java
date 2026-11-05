@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class AreaOfRectangle {
-    // 6.	Write a program to find the area of a rectangle, length and breadth taken by the user.
+    // 6. Write a program to find the area of a rectangle, length and breadth taken by the user.
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
