@@ -1,0 +1,311 @@
+1. Write a Program to find the sum of the following series 
+(a) S= -2 + 4 - 6 + 8 - . . . . . …… Up to Nth Term. (Input N). 
+
+public class SumOfFollowingSeries{
+    // 1. Write a Program to find the sum of the following series 
+    // (a) S= -2 + 4 - 6 + 8 - . . . . . ...... Up to Nth Term. (Input N). 
+
+    // N^th 1 - 2
+    //      2 - 4
+    //      3 - 6
+    //      4 - 8
+
+    public int SumOfTheFollowingSeries() {
+        // an = a + (n-1) d (Arithmetic progression)
+        // 2 + (n-1) 2 = 2 + 2n - 2 =  2 - 2 + 2n = 0 + 2n = 2n
+        // 2, 4, 6, 8, …
+        // 2×1, 2×2, 2×3, 2×4, …
+        // So for term number n, the magnitude is: 2n
+
+        // signs
+        // n=1 → negative
+        // n=2 → positive
+        // n=3 → negative
+        // n=4 → positive
+        // So:
+        // Odd n → negative
+        // Even n → positive
+
+        // The n-th term is:
+        // If n is odd: −2n
+        // If n is even: +2n
+
+        // If user enters N = 4, add the first 4 terms: −2+4−6+8=4 (-2+4 = +2 & −6+8 = +2)
+
+        int N = 4;
+        // Whole numbers only → int 
+        int sum = 0;
+
+        for (int i = 1; i <= N; i++) {
+            if (i%2 == 0) {// n is i
+                sum = sum + 2 * i;
+            }else{
+                sum = sum - 2 * i; 
+            }
+        }
+
+        return sum;
+
+    }
+
+    public static void main(String[] args) {
+        SumOfFollowingSeries SumSeries = new SumOfFollowingSeries();
+        int sum = SumSeries.SumOfTheFollowingSeries();
+        System.out.println("Sum = " + sum);
+    }
+}
+
+1. Write a Program to find the sum of the following series 
+(b) S=  1 – 3^2 + 5^3 – 7^4 + . .Up to Nth Term (Input N). 
+
+// package MCA PROGRAMME-MCA1101 Object Oriented Programming with Java;
+
+// 1. Write a Program to find the sum of the following series 
+// (b) S=  1 – 3^2 + 5^3 – 7^4 + . .Up to Nth Term (Input N). 
+public class SumOfFollowingSeries2 {
+
+
+    public double SumOfTheFollowingSeries() {
+        // 2×i gives even number
+        // 2*i - 1 gives odd number
+        // for i=1 odd +, it's 1^1 = 1; 
+        // for i=2 even -, it's 3^2 = 3*3 = 9;
+        // for i=3 odd +, it's 5^3 = 5*5*5 = 25*5 = 125;
+        // for i=4 even -, it's 7^4 = 7*7*7*7 = 2401;
+
+        int n = 4;
+        double sum = 0;
+
+        // Math.pow() always returns a double (a decimal)
+        for (int i = 1; i <= n; i++) {
+            if (i % 2 == 0) {//even
+                sum = sum - Math.pow((2 * i - 1), i);
+            } else {
+                sum = sum + Math.pow((2 * i - 1), i);
+            }
+        }
+
+        return sum;
+    }
+
+    public static void main(String[] args) {
+        SumOfFollowingSeries2 SumOfSeries2 = new SumOfFollowingSeries2();
+        System.out.println("Sum of the following series: " + SumOfSeries2.SumOfTheFollowingSeries());
+    }
+}
+
+1. Write a Program to find the sum of the following series 
+(c) S=  1 - 1/3 + 1/9 - 1/27 + 1/81 - 1/243 …. Up to Nth Term. (Input N). 
+
+public class SumOfFollowingSeries3 {
+       public double SumOfTheFollowingSeries() {
+
+        // for i=1 odd +, it's 1/3^0 = 1;
+        // for i=2 even -, it's 1/3^1 = 1/3;
+        // for i=3 odd +, it's 1/3^2 = 1/9;
+        // for i=4 even -, it's 1/3^3 = 1/27;
+
+        int n = 4;
+        double sum = 0;
+
+        for (int i = 1; i <= n; i++) {
+            if (i % 2 == 0) {//even
+                sum = sum - 1/Math.pow(3, i - 1);
+            } else {
+                sum = sum + 1/Math.pow(3, i - 1);
+            }
+        }
+
+        return sum;
+    }
+
+    public static void main(String[] args) {
+        SumOfFollowingSeries3 series = new SumOfFollowingSeries3();
+        System.out.println("Sum of the following series: " + series.SumOfTheFollowingSeries());
+    }
+}
+
+1. Write a Program to find the sum of the following series
+(d) S= 1! + 2! + 3! + 4!...Up to Nth Term. (Input N). 
+
+public class SumOfFollowingSeries4 {
+
+    // 0! = 1
+    // 1! = 1
+    // 2! = 2*1 = 2
+    // 3! = 3*2*1 = 6
+    // 4! = 4*3*2*1 = 24
+
+
+    public double SumOfTheFollowingSeries() {
+        int n = 5;
+        long sum = 0;
+
+        long factorial = 1; // as fact of 0! = 1 and 1! = 1
+
+        for (int i = 1; i <= n; i++) {
+
+            factorial *= i;// 1*1=1,1*2=2,2*3=6,6*4=24,24*5=120
+
+            sum = sum + factorial;
+        }
+
+        return sum;
+    }
+
+    public static void main(String[] args) {
+        SumOfFollowingSeries4 SumOfSeries4 = new SumOfFollowingSeries4();
+        System.out.println("Sum of the following series: " + SumOfSeries4.SumOfTheFollowingSeries());
+    }
+}
+
+/*2. The nos. in the sequence 0 1 1 2 3 5 8 13 21…………. are called Fibonacci nos. 
+Write a program to print the first n (to be taken as input) Fibonacci nos.
+
+Using iterative method:
+To print the Fibonacci series up to a given limit using an iterative method
+1.Declare and initialize three variables: first, second, and next and Assign 1 to both first and second, and 0 to next.
+        2.Declare and initialize a variable n to store the limit of        the series. For example, n = 10.
+        3. Use a for loop to iterate from 1 to n, and perform the following actions in each iteration:
+•	Print the value of first.
+•	Calculate the next term by adding first and second, and assign it to next.
+•	Update the values of first and second by assigning second to first, and next to second.
+•	Exit the loop and end the program.
+ */
+
+    // eg- 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144
+    // suppose we conside a = 0 and b = 1 then a + b = c then if we swap the value of b to a and c to b means a = b and the b = c then again a + b, this cycle goes go until we reach to the nth term
+
+import java.util.Scanner;
+
+public class Fibonacci {
+    public static void FibonacciSeries(int n) {
+        int first = 0;
+        int second = 1;
+
+        calculateFibonacci(n, first, second);
+    }
+
+    private static void calculateFibonacci(int num, int first, int second) {
+        // int n = 13;
+
+        System.out.print("First " + num + " Fibonacci numbers: ");
+
+        for (int i = 1; i <= num; i++) {
+            System.out.print(first + " ");// Fibonacci number starts from 0
+
+            int sum = first + second;
+            first = second;
+            second = sum;
+        }
+
+        System.out.println(); 
+    }
+
+    public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+       
+        System.out.print("Enter the number of Fibonacci numbers to print: ");
+        int n = sc.nextInt(); // number of terms, not the value of the Fibonacci number.
+
+        // So, n have to be at least 1
+        if (n <= 0) {
+            System.out.println("Please enter a positive integer greater than 0.");
+            sc.close();
+            return;
+        }
+
+        FibonacciSeries(n);
+
+        sc.close();
+    }
+}
+
+3. Write a Program to find sum of divisors of factorial of a number 
+Input: 4   Output: 60 
+Factorial of 4 is 24. Divisors of 24 are 
+1 2 3 4 6 8 12 24, the sum of these is 60.
+
+public class SumOfDivisorsOfFactorial {
+
+    public static long calculateFactorial(int n) {
+        long factorial = 1;
+        for (int i = 1; i <= n; i++) {
+            factorial *= i;
+        }
+        return factorial;
+    }
+
+    // Method to find the sum of divisors
+    public static long calculateSumOfDivisors(long factorial) {
+        long sum = 0;
+
+        // 1 2 3 4 6 8 12 24, are the devisors
+        // the sum of these is 60.
+        for (long i = 1; i <= factorial; i++) {
+            if (factorial % i == 0) { // devisors
+                sum = sum + i; // then sum
+            }
+        }
+        return sum;
+
+    }
+
+    public static void main(String[] args) {
+        
+        int n = 4;
+        long factorial = calculateFactorial(n);
+        long sum = calculateSumOfDivisors(factorial);
+        System.out.println("Sum of divisors of factorial of " + n + " is: " + sum);
+
+    }
+
+}
+
+4. Write a program for determining whether a number is a Perfect number or not. 
+(e.g. 28 is a Perfect Number because Sum of the Divisor of 28 = 1+2+4+7+14 =28.) 
+
+public class PerfectNumber {
+    // 4. Write a program for determining whether a number is a Perfect number or not.(e.g. 28 is a Perfect Number because Sum of the Divisor of 28 = 1+2+4+7+14 =28.)
+
+    // Divisors of 24 are 1 2 3 4 6 8 12 24, the sum of these is 60. then 24 is not a perfect number.
+    public static boolean isPerfectNumber(int num){
+        // 0 and 1 are not perfect numbers
+        if (num <= 1) {
+            return false;
+        };
+
+        long sumOfDivisors = calculateSumOfDivisors(num);
+        
+        // Compare the sum of proper divisors is to the original number
+        return sumOfDivisors == num;
+    }
+
+    // Method to find the sum of proper divisors (excluding the number itself).
+    public static long calculateSumOfDivisors(long num) {
+        long sum = 0;
+
+        for (long i = 1; i <= num - 1; i++) {// excluding the number itself
+            if (num % i == 0) { // devisors
+                sum = sum + i; // then sum
+            }
+        }
+
+        return sum;
+    }
+
+    public static void main(String[] args) {
+
+        int[] nums = {28, 24, 6, 67, 68, 69, 420};
+
+        for (int num : nums) {
+            if (isPerfectNumber(num)) {
+                System.out.println(num + " is a Perfect Number.");
+            } else {
+                System.out.println(num + " is not a Perfect Number.");
+            }
+        }
+
+    }
+
+}
