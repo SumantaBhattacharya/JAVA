@@ -56,10 +56,23 @@
   - > *for a `Pearson number`: separate the digits, find the factorial of each digit, sum them, remove the last digit, and then compare.* 
   - > *For an `Armstrong number`: separate the digits, raise each digit to the power of the total number of digits, sum them, remove the last digit, and then compare.*
 
-# ***[`Java program to calculate area of Triangle | Learn Coding`](https://youtu.be/z9SVjqQ6PFY?si=YXOtOpJ7RhosMZFi)***
+- *In a single `.java` file, you can have only ONE `public class`, and the `file name` must exactly match that `public class's name`.*
+
+- `In Java`, creating a `class` inside `another class` is `allowed`
+- `In Java`, you can apply `public`, `protected`, `private`, or `default (package-private)` to an `inner class`.
+
+- `Java` does not allow you to define a `method` inside `another method`.
+
+- `In Java`, you must `declare` the `array` once (`outside the loop`), and then just `assign` value`s to the specific index inside the `loop`.
+
+- *Cannot pass values directly inside curly braces {} to create an object in Java.*
+
+- *Java passes primitive values by value (it makes a copy), not by reference.*
+
+# ***[Java program to calculate area of Triangle | Learn Coding](https://youtu.be/z9SVjqQ6PFY?si=YXOtOpJ7RhosMZFi)***
 
 [![Java program to calculate area of Triangle | Learn Coding](https://img.youtube.com/vi/z9SVjqQ6PFY/0.jpg)](https://youtu.be/z9SVjqQ6PFY?si=YXOtOpJ7RhosMZFi)
 
-# **[***`Java program to check input year is leap year or not | Learn Coding`***](https://youtu.be/KzXze9iL9hc?si=IHza_9dZDQvRd1x6)**
+# **[***Java program to check input year is leap year or not | Learn Coding***](https://youtu.be/KzXze9iL9hc?si=IHza_9dZDQvRd1x6)**
 
 [![Java program to check input year is leap year or not | Learn Coding](https://img.youtube.com/vi/KzXze9iL9hc/0.jpg)](https://youtu.be/KzXze9iL9hc?si=IHza_9dZDQvRd1x6)
