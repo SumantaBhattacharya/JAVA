@@ -1,3 +1,5 @@
+// package AreaOfTriangle;
+
 import java.util.Scanner;
 public class AreaOfTriangle {
     // i. find semiperimeter
