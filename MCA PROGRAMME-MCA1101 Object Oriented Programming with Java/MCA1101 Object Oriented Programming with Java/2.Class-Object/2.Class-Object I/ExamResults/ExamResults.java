@@ -53,7 +53,7 @@ public class ExamResults {
 
         // (a) Total marks obtain by each student
         for (int i = 0; i <= students.length - 1; i++) {
-            System.out.println("Student " + students[i].rollNo + "Total Marks: " + students[i].totalMarks);
+            System.out.println("Student " + students[i].rollNo + " Total Marks: " + students[i].totalMarks);
         }
 
         // (b) The highest marks in each subject and the roll no of the student who secured it
@@ -121,3 +121,45 @@ public class ExamResults {
         
     }
 }
+
+/*
+Enter the number of students: 5
+
+Enter details for student 1:
+Subject 1 marks: 67
+Subject 2 marks: 68
+Subject 3 marks: 69
+
+Enter details for student 2:
+Subject 1 marks: 05
+Subject 2 marks: 34
+Subject 3 marks: 43
+
+Enter details for student 3:
+Subject 1 marks: 8
+Subject 2 marks: 22
+Subject 3 marks: 30
+
+Enter details for student 4:
+Subject 1 marks: 01
+Subject 2 marks: 10
+Subject 3 marks: 78
+
+Enter details for student 5:
+Subject 1 marks: 81
+Subject 2 marks: 99
+Subject 3 marks: 57
+Student 1 Total Marks: 204.0
+Student 2 Total Marks: 82.0
+Student 3 Total Marks: 60.0
+Student 4 Total Marks: 89.0
+Student 5 Total Marks: 237.0
+
+--- (b) Highest Marks in Each Subject ---
+Subject 1 Highest Marks: 81.0 (Secured by Roll No: 5)
+Subject 2 Highest Marks: 99.0 (Secured by Roll No: 5)
+Subject 3 Highest Marks: 78.0 (Secured by Roll No: 4)
+
+--- (c) Highest Total Marks ---
+Roll No: 5 achieved the highest total: 237.0
+*/
