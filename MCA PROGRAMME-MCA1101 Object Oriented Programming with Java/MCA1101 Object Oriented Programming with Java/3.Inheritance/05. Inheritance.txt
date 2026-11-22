@@ -1,0 +1,126 @@
+1. What is inheritance and how does it help in achieving reusability?
+
+Inheritance is an Object-Oriented Programming (OOP) principle in which a new class called subclass inherit the properties and behaviors of a existing class called super class
+
+Inheritance represents an IS-A relationship.
+
+Inheritance lets inheriting the properties (fields) and behaviors (methods) from a existing superclass to subclasses thus achieving reusability.
+and also it lets overridng those inherited properties from superclass.
+
+2. Describe the different forms of inheritance. Among them how many are supported by Java directly?
+
+Single level inheritance - one child class inheriting from a single parent class
+Multilevel inheritance — a child class becomes the parent for another child class
+Hierarchical inheritance — multiple child class inheriting from a single parent class
+Hybrid inheritance — combination of two or more types of inheritance
+Multiple Inheritance - one single child class inheriting from multiple parent class
+
+Java does not support multiple inheritance through classes, but it can be achieved using interfaces
+
+3. Does a class inherit the constructors of its super class? 
+
+In Java, a subclass does not inherit the constructors of its superclass.
+The superclass constructor is automatically invoked when a child class object is created
+
+4. What happens when a sub-class object is assigned to a super class object reference? Explain with an 
+example.
+
+when a sub-class object is assigned to a super class object reference is called Upcasting
+Example: Animal a = new Dog();
+
+The superclass reference 'a' can only access the data members defined in the superclass, but
+if subclass overrides the methods of superclass, then overridden methods of the subclass are executed at runtime.
+
+5. What is the use of the keyword super? Is it absolutely necessary to use super?    
+
+The super keyword is used to refer to the immediate parent of a class.
+used for calling the superclass constructor
+
+It is not necessary to use super If the parent has a no-argument constructor
+If the parent has a argument constructor and if a subclass constructor does not start with an super() or this() call, then Java compiler automatically includes super();
+
+6. What do you mean by signature of a method? 
+
+The signature of a method consists of the method name and the parameter list.
+The return type and access specifier are not part of signature of a method
+
+7. What is method overriding? Explain the working principle of method overriding. 
+
+Method Overriding: Method Overriding is also known as runtime polymorphism. 
+Method overriding occurs during declaring a method in the subclass which is already present in the Super Class. 
+
+working principle of method overriding.
+
+Method overriding is resolved at runtime.
+final, static and private methods can't be overridden
+
+8. What all are the types of polymorphism present in Java.  
+
+Polymorphism can be achieved through two mechanisms:  
+
+Method Overloading: Method overloading is also known as Compile time Polymorphism. 
+Method overloading occurs when methods in the same class have same names, but 
+different parameters.  
+
+Method Overriding: Method Overriding is also known as runtime polymorphism. Method 
+overriding occurs during declaring a method in the subclass which is already present in 
+the Super Class. 
+
+9. Explain how does Java implements runtime polymorphism?    
+
+Java implements runtime polymorphism through:
+
+Inheritance
+Method Overriding
+Upcasting
+
+10. How can a method be protected from being overridden? What benefit is achieved by preventing 
+overriding? 
+
+A method can be protected from being overridden by using the final keyword.
+
+benefit is final keyword keeps the class's behaviour consistent. IT prevents subclasses from changing the original behavior of a method
+
+11. Distinguish between method overloading and method overriding with an example? 
+
+Method Overloading	                                                                                      Method Overriding
+Method overloading is also known as Compile time Polymorphism.                                            Method Overriding is also known as runtime polymorphism. 
+Method overloading occurs when methods in the same class have same names, but different parameters.       Method overriding occurs during declaring a method in the subclass which is already present in the Super Class. 
+Method Overloading happens within a class                                                                 Method Overloading happens between super class and sub class
+In Method Overriding, Inheritance is not required                                                         In Method Overriding, Inheritance is not required
+Example                                                                                                   Example 
+void show(int a)                                                                                          class A {
+void show(String s)                                                                                                void show() {}
+                                                                                                            }
+
+                                                                                                          class B extends A {
+                                                                                                                    void show() {}
+                                                                                                                }
+
+12. How can a programmer define a class that cannot be inherited? Give an example.  
+
+A programmer can define a class that cannot be inherited by declaring the class as final
+
+final class MyClass {}.
+
+13. What is the difference between shadow and override? 
+
+shadow: When a subclass declares a variable with the same name as in the superclass variable
+Method Overriding: Method Overriding is also known as runtime polymorphism. Method 
+overriding occurs during declaring a method in the subclass which is already present in 
+the Super Class. 
+
+14. What is down casting?
+
+Downcasting means casting a superclass reference into a subclass reference.
+
+15. In what order are constructors invoked along the inheritance chain, when a derived class object is 
+created? 
+
+Top-down.
+
+16. Write short notes on: Runtime Polymorphism in Java. 
+
+Method Overriding: Method Overriding is also known as runtime polymorphism. Method 
+overriding occurs during declaring a method in the subclass which is already present in 
+the Super Class. 
